@@ -71,6 +71,13 @@ always install npm install -D tailwindcss@3.4.1 postcss@8.4.35 autoprefixer@10.4
 when i write "nc" it means "need clarification ask yes or no questions"
 when i write "sc" it means "please i am trying to learn make the code simpler and shorter"
 
+## Writing Code
+
+Reduce code complexity - Remove unnecessary features or logic
+Shorten the code - Write more concise, minimal implementations
+Simplify for learning - Make the code easier to understand and follow
+Focus on essentials - Keep only the core functionality needed
+
 
 
 ## Development Workflow
