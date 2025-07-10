@@ -5,48 +5,46 @@
     Simplified hero section - mobile-first design for Ghana's market
     Follows Stratonea guidelines: 48px touch targets, WhatsApp integration, offline-aware
   -->
-  <section class="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 px-4 py-20">
-    
+  <section
+    class="relative min-h-screen rounded-lg flex items-center  justify-center bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 px-4 py-20">
+
     <!-- ===== BACKGROUND OVERLAY ===== -->
-    <div class="absolute inset-0 bg-black bg-opacity-40"></div>
-    
+    <div class="absolute inset-0 rounded-lg bg-black bg-opacity-40"></div>
+
     <!-- ===== MAIN HERO CONTENT ===== -->
     <div class="relative z-10 max-w-4xl mx-auto text-center text-white">
-      
+
       <!-- ===== MAIN HEADLINE ===== -->
       <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-6 drop-shadow-lg">
         {{ heroTitle }}
       </h1>
-      
+
       <!-- ===== SUBHEADLINE ===== -->
       <p class="text-xl md:text-2xl font-medium mb-8 text-blue-100 max-w-2xl mx-auto drop-shadow-md">
         {{ heroSubtitle }}
       </p>
-      
+
       <!-- ===== CALL-TO-ACTION BUTTONS ===== -->
       <div class="flex flex-col sm:flex-row gap-4 justify-center items-center max-w-md mx-auto sm:max-w-none mb-12">
-        
+
         <!-- Primary CTA: WhatsApp Quote (Ghana Priority) -->
-        <button
-          @click="handleRequestQuote"
+        <button @click="handleRequestQuote"
           class="w-full sm:w-auto bg-green-600 hover:bg-green-700 text-white font-semibold px-8 py-4 rounded-lg min-h-[48px] min-w-[200px] transition-all duration-300 transform hover:scale-105 active:scale-95 shadow-lg hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-green-300"
-          aria-label="Request a quote via WhatsApp"
-        >
+          aria-label="Request a quote via WhatsApp">
           � Get Quote via WhatsApp
         </button>
-        
+
         <!-- Secondary CTA: Call Now -->
-        <button
-          @click="handleCallNow"
+        <button @click="handleCallNow"
           class="w-full sm:w-auto bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-900 font-semibold px-8 py-4 rounded-lg min-h-[48px] min-w-[200px] transition-all duration-300 transform hover:scale-105 active:scale-95 shadow-lg hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-white focus:ring-opacity-50"
-          aria-label="Call Naachiaa Estates now"
-        >
+          aria-label="Call Naachiaa Estates now">
           📞 Call Us Now
         </button>
       </div>
-      
+
       <!-- ===== TRUST INDICATORS ===== -->
-      <div class="mt-12 pt-8 border-t border-blue-300 border-opacity-30 flex flex-col sm:flex-row justify-center items-center gap-6 sm:gap-12 text-blue-100">
+      <div
+        class="mt-12 pt-8 border-t border-blue-300 border-opacity-30 flex flex-col sm:flex-row justify-center items-center gap-6 sm:gap-12 text-blue-100">
         <div class="text-center">
           <div class="text-2xl font-bold text-white">30+</div>
           <div class="text-sm uppercase tracking-wide">Years Experience</div>
@@ -61,24 +59,23 @@
         </div>
       </div>
     </div>
-    
+
     <!-- ===== SCROLL INDICATOR ===== -->
     <div class="absolute bottom-6 left-1/2 transform -translate-x-1/2 animate-bounce">
       <div class="w-6 h-10 border-2 border-white rounded-full flex justify-center">
         <div class="w-1 h-3 bg-white rounded-full mt-2 animate-pulse"></div>
       </div>
     </div>
-    
+
     <!-- ===== OFFLINE INDICATOR ===== -->
-    <div
-      v-if="!isOnline"
-      class="fixed top-4 left-4 right-4 bg-orange-500 text-white px-4 py-2 rounded-lg shadow-xl z-50"
-      role="alert"
-      aria-live="polite"
-    >
+    <div v-if="!isOnline"
+      class="fixed top-4 left-4 right-4 bg-orange-500 text-white px-4 py-2 rounded-lg shadow-xl z-50" role="alert"
+      aria-live="polite">
       <div class="flex items-center gap-2 text-sm">
         <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-          <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/>
+          <path fill-rule="evenodd"
+            d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z"
+            clip-rule="evenodd" />
         </svg>
         <span>Working offline - Contact options still available</span>
       </div>
