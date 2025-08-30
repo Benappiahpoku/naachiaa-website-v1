@@ -13,8 +13,7 @@
     <!-- ===== PRODUCTS SECTION ===== -->
     <ProductsSection />
     
-    <!-- ===== FEATURED PROJECTS SECTION ===== -->
-    <FeaturedProjects />
+   
     
     <!-- ===== TESTIMONIALS SECTION ===== -->
     <Testimonials />
@@ -37,7 +36,7 @@
  */
 import HeroSection from '@/components/common/HeroSection.vue'
 import ProductsSection from '@/components/common/ProductsSection.vue'
-import FeaturedProjects from '@/components/common/FeaturedProjects.vue'
+
 import Testimonials from '@/components/common/TestimonialsSection.vue'
 import AboutSection from '@/components/common/AboutSection.vue'
 import ContactSection from '@/components/common/ContactSection.vue'

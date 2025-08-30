@@ -6,8 +6,8 @@
     Optimized for Ghana's mobile-first users with touch-friendly interactions
     Features Naachiaa Estates branding and construction-focused navigation
   -->
-  <nav class="bg-gray-900 shadow-lg border-b-2 border-blue-600">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <nav class="bg-gray-800 shadow-lg border-b-2 border-blue-600 sticky z-index-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6  lg:px-8">
       <div class="flex justify-between h-16">
         <div class="flex">
           <!-- ===== COMPANY LOGO & BRANDING ===== -->
@@ -185,11 +185,6 @@ const navItems = [
     name: 'Products', 
     path: '/products',
     icon: 'M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z'
-  },
-  { 
-    name: 'Projects', 
-    path: '/projects',
-    icon: 'M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z'
   },
   { 
     name: 'About Us', 
