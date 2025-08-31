@@ -147,7 +147,7 @@
  */
 function openWhatsApp(): void {
   const message = 'Hello Naachiaa Estates! I read about your company and would like to learn more about your concrete products and services.'
-  const phoneNumber = '0500000839'
+  const phoneNumber = '0244314463'
   const whatsappUrl = `https://wa.me/${phoneNumber.replace(/\D/g, '')}?text=${encodeURIComponent(message)}`
 
   // Open WhatsApp in new tab

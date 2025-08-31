@@ -8,16 +8,16 @@
           class="flex items-center gap-2 router-link"
           aria-label="Return to Stratonea homepage"
         >
-          <!-- <img 
-            src="/icons/icon-96x96.png" 
-            alt="Stratonea Logo" 
+          <img 
+            src="/NaachiaaLogo.webp" 
+            alt="Naachiaa Estate Logo" 
             class="w-8 h-8"
             loading="eager"
             width="32"
             height="32"
-          /> -->
-          <StratoneaLogo white />
-          <span class="text-lg font-semibold text-white">Stratonea</span>
+          />
+        
+          <span class="text-lg font-semibold text-white">Naachiaa Estates</span>
         </router-link>
       </div>
     </header>
@@ -46,7 +46,7 @@
 </template>
 
 <script setup lang="ts">
-  import StratoneaLogo from '@/components/base/StratoneaLogo.vue'
+  
   import OfflineIndicator from '../components/base/OfflineIndicator.vue'
   import { useNetworkStatus } from '@/composables/useNetworkStatus.ts'
   import { computed } from 'vue'

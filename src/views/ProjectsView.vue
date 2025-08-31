@@ -259,7 +259,7 @@
             </button>
 
             <!-- Phone Contact -->
-            <a href="tel:0500000839"
+            <a href="tel:0244314463"
               class="inline-flex items-center px-8 py-4 text-lg font-semibold text-blue-600 bg-white hover:bg-blue-50 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 min-h-[48px]">
               <svg class="w-6 h-6 mr-3" fill="currentColor" viewBox="0 0 20 20">
                 <path
@@ -339,7 +339,7 @@ interface ClientTestimonial {
  * Business contact information for Naachiaa Estates
  */
 const businessInfo = {
-  whatsappNumber: '0500000839',
+  whatsappNumber: '0244314463',
   companyName: 'Naachiaa Estates'
 }
 

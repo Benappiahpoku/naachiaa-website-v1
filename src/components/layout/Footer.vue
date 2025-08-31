@@ -65,7 +65,7 @@
 
           <!-- Phone Numbers -->
           <div class="space-y-2">
-            <a href="tel:0500000839"
+            <a href="tel:0244314463"
               class="flex items-center gap-3 p-3 bg-gray-800 hover:bg-gray-700 rounded-lg transition-colors min-h-[48px]"
               aria-label="Call main office">
               <svg class="w-5 h-5 text-blue-400" fill="currentColor" viewBox="0 0 20 20">
@@ -74,7 +74,7 @@
               </svg>
               <div>
                 <div class="text-sm font-medium text-white">Main Office</div>
-                <div class="text-sm text-gray-400">0500000839</div>
+                <div class="text-sm text-gray-400">0244314463</div>
               </div>
             </a>
 
@@ -165,7 +165,7 @@
  * Simple static data for fast loading
  */
 const businessInfo = {
-  phone: '0500000839',
+  phone: '0244314463',
   email: 'info@naachiaa.com',
   address: 'No. 8 Darfur Road, Esreso Kumasi, Ashanti Region, Ghana',
   company: 'Naachiaa Estates'

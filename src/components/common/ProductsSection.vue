@@ -43,8 +43,8 @@ interface Product {
 }
 
 // ===== Business contact =====
-const businessPhone = '0500000839'
-const businessWhatsApp = '0500000839'
+const businessPhone = '0244314463'
+const businessWhatsApp = '0244314463'
 const businessName = 'Naachiaa Estates'
 
 // ===== Products (static, served from public/) =====

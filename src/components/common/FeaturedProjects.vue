@@ -195,7 +195,7 @@ const featuredProjects: FeaturedProject[] = [
  * Business contact info for WhatsApp project inquiries
  */
 const businessInfo = {
-  whatsappNumber: '0500000839',
+  whatsappNumber: '0244314463',
   companyName: 'Naachiaa Estates'
 }
 

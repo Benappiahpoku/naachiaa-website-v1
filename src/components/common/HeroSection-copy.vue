@@ -109,8 +109,8 @@ const heroTitle = "Ghana's Trusted Concrete Partner"
 const heroSubtitle = "High-quality concrete products since 1991"
 
 const businessInfo: BusinessInfo = {
-  phone: '0500000839',
-  whatsappNumber: '0500000839',
+  phone: '0244314463',
+  whatsappNumber: '0244314463',
   companyName: 'Naachiaa Estates'
 }
 

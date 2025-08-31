@@ -126,7 +126,7 @@
             </div>
             <div class="space-y-2">
               <!-- WhatsApp Quick Contact -->
-              <a href="https://wa.me/0500000839" target="_blank" rel="noopener noreferrer" class="
+              <a href="https://wa.me/0244314463" target="_blank" rel="noopener noreferrer" class="
                   flex items-center gap-3 px-4 py-3 rounded-lg text-sm font-medium
                   text-green-400 hover:bg-green-600 hover:text-white
                   transition-all duration-200 min-h-[44px]
@@ -139,7 +139,7 @@
               </a>
 
               <!-- Phone Quick Contact -->
-              <a href="tel:0500000839" class="
+              <a href="tel:0244314463" class="
                   flex items-center gap-3 px-4 py-3 rounded-lg text-sm font-medium
                   text-blue-400 hover:bg-blue-600 hover:text-white
                   transition-all duration-200 min-h-[44px]

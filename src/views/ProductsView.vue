@@ -70,7 +70,7 @@
               </button>
 
               <!-- Phone Contact -->
-              <a href="tel:0500000839"
+              <a href="tel:0244314463"
                 class="inline-flex items-center px-8 py-4 text-lg font-semibold text-blue-600 bg-white border-2 border-blue-600 hover:bg-blue-600 hover:text-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
                 <svg class="w-6 h-6 mr-3" fill="currentColor" viewBox="0 0 20 20">
                   <path
@@ -162,7 +162,7 @@ interface Product {
  * Business contact info for WhatsApp integration
  */
 const businessInfo = {
-  whatsappNumber: '0500000839',
+  whatsappNumber: '0244314463',
   companyName: 'Naachiaa Estates'
 }
 

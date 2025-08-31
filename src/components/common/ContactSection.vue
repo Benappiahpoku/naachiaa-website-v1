@@ -37,7 +37,7 @@
             class="w-full px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg transition-all duration-300 min-h-[48px]">
             Chat Now
           </button>
-          <p class="text-xs text-gray-500 mt-2">0500000839</p>
+          <p class="text-xs text-gray-500 mt-2">0244314463</p>
         </div>
 
         <!-- ===== PHONE CONTACT ===== -->
@@ -52,7 +52,7 @@
           <p class="text-gray-600 mb-6 text-sm">
             Speak directly with our construction experts
           </p>
-          <a href="tel:0500000839"
+          <a href="tel:0244314463"
             class="w-full px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-all duration-300 min-h-[48px] flex items-center justify-center">
             Call Now
           </a>
@@ -92,8 +92,8 @@
  * Business contact information for Naachiaa Estates
  */
 const businessInfo = {
-  phone: '0500000839',
-  whatsappNumber: '0500000839',
+  phone: '0244314463',
+  whatsappNumber: '0244314463',
   address: 'Industrial Area, Tema, Greater Accra Region, Ghana',
   companyName: 'Naachiaa Estates'
 }

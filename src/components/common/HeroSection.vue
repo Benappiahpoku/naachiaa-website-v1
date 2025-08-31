@@ -40,18 +40,7 @@
               </button>
             </div>
 
-            <!-- Stats -->
-            <div class="flex flex-col sm:flex-row gap-4 sm:gap-8 text-gray-600">
-              <div class="flex-1 text-center">
-                <div class="text-2xl md:text-3xl font-bold text-gray-800">30+</div>
-                <div class="text-sm uppercase tracking-wide">Years Experience</div>
-              </div>
-              
-              <div class="flex-1 text-center">
-                <div class="text-2xl md:text-3xl font-bold text-gray-800">16</div>
-                <div class="text-sm uppercase tracking-wide">Regions Served</div>
-              </div>
-            </div>
+
           </div>
         </section>
 
@@ -79,8 +68,8 @@ const heroTitle = "Ghana's Trusted Concrete Partner"
 const heroSubtitle = "High-quality concrete products since 1991"
 
 const businessInfo: BusinessInfo = {
-  phone: '0500000839',
-  whatsappNumber: '0500000839',
+  phone: '0244314463',
+  whatsappNumber: '0244314463',
   companyName: 'Naachiaa Estates'
 }
 

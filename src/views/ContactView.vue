@@ -70,7 +70,7 @@
                 Fastest way to reach us. Get instant responses and quick quotes.
               </p>
               <div class="space-y-3">
-                <div class="text-lg font-semibold text-green-600">0500000839</div>
+                <div class="text-lg font-semibold text-green-600">0244314463</div>
                 <button @click="openWhatsApp"
                   class="w-full flex items-center justify-center gap-3 px-6 py-4 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 min-h-[48px]"
                   aria-label="Start WhatsApp chat">
@@ -98,8 +98,8 @@
                 Speak directly with our team for detailed discussions.
               </p>
               <div class="space-y-3">
-                <div class="text-lg font-semibold text-blue-600">0500000839</div>
-                <a href="tel:0500000839"
+                <div class="text-lg font-semibold text-blue-600">0244314463</div>
+                <a href="tel:0244314463"
                   class="w-full flex items-center justify-center gap-3 px-6 py-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 min-h-[48px]"
                   aria-label="Call us now">
                   <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
@@ -271,7 +271,7 @@ import { onMounted } from 'vue'
  * Business contact information for Naachiaa Estates
  */
 const businessInfo = {
-  whatsappNumber: '0500000839',
+  whatsappNumber: '0244314463',
   email: 'info@naachiaa.com',
   address: 'Industrial Area, Tema, Greater Accra Region, Ghana',
   companyName: 'Naachiaa Estates'

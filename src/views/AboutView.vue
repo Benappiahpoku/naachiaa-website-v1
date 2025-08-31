@@ -266,7 +266,7 @@ import { onMounted } from 'vue'
  * Business contact information for Naachiaa Estates
  */
 const businessInfo = {
-  whatsappNumber: '0500000839',
+  whatsappNumber: '0244314463',
   companyName: 'Naachiaa Estates'
 }
 
