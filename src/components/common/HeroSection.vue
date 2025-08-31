@@ -19,7 +19,7 @@
           <!-- Content -->
           <div class="relative z-10 text-gray-800">
             <h1 id="hero-heading"
-              class="text-3xl md:text-5xl text-center md:text-left font-extrabold leading-tight mb-4">
+              class="text-4xl md:text-6xl text-center md:text-left font-extrabold leading-tight mb-4">
               {{ heroTitle }}
             </h1>
             <p class="text-lg md:text-xl text-center md:text-left text-gray-600 mb-6">
