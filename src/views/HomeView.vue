@@ -6,24 +6,24 @@
     Follows Stratonea guidelines: offline-first, WhatsApp integration, touch-optimized
   -->
   <main class="min-h-screen bg-white" role="main" aria-label="Naachiaa Estates Homepage">
-    
+
     <!-- ===== HERO SECTION ===== -->
     <HeroSection />
-    
+
     <!-- ===== PRODUCTS SECTION ===== -->
     <ProductsSection />
-    
-   
-    
+
+
+
     <!-- ===== TESTIMONIALS SECTION ===== -->
     <Testimonials />
-    
+
     <!-- ===== ABOUT SECTION ===== -->
     <AboutSection />
-    
+
     <!-- ===== CONTACT SECTION ===== -->
     <ContactSection />
-    
+
   </main>
   <!-- ===== NAACHIAA ESTATES HOMEPAGE END ===== -->
 </template>
@@ -54,6 +54,8 @@ onMounted(() => {
     connectionType: (navigator as any).connection?.effectiveType || 'unknown'
   })
 })
+
+// Removed unused variable declaration for WhatsApp number
 </script>
 
 <!-- 

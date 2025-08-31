@@ -1,3 +1,4 @@
+<!-- filepath: /Users/benjaminappiah-poku/TekLumin/-webApps/projects/naachiaa-website-v1/src/components/layout/ProductCard.vue -->
 <template>
     <!-- Reusable Product Card -->
     <article
@@ -21,7 +22,7 @@
             <div class="flex items-start justify-between mb-3">
                 <h3 class="text-xl font-bold text-gray-900">{{ displayName }}</h3>
                 <div class="text-right">
-                    <div class="text-lg font-bold text-blue-600">{{ price ?? '-' }}</div>
+                    <div class="text-lg font-bold text-blue-600">{{ formattedPrice }}</div>
                     <div class="text-xs text-gray-500">{{ unit }}</div>
                 </div>
             </div>
@@ -38,7 +39,7 @@
             <div class="mt-4 grid grid-cols-1 sm:grid-cols-3 gap-2">
                 <button @click="onRequestQuote" :disabled="!product.inStock"
                     class="w-full inline-flex justify-center items-center gap-2 px-3 py-2 rounded-lg bg-blue-600 text-white text-sm hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed">
-                    Request Quote
+                    Get Quote
                 </button>
 
                 <button @click="onShare"
@@ -57,7 +58,7 @@
 
 <script setup lang="ts">
 // Reusable product card props and emits
-import { defineProps, defineEmits, computed } from 'vue'
+import { computed } from 'vue'
 
 // Flexible Product shape: supports both 'name' and 'title' variants used in different lists
 interface Product {
@@ -66,7 +67,7 @@ interface Product {
     title?: string
     description?: string
     category?: string
-    price?: number
+    price?: number | string // Adjusted to allow for a range (e.g., "9.50 - 13.00")
     unit?: string
     inStock?: boolean
     features?: string[]
@@ -86,7 +87,12 @@ const { product } = props
 const displayName = computed(() => product.name ?? product.title ?? 'Product')
 const description = computed(() => product.description ?? '')
 const imageSrc = computed(() => product.image ?? '/solidblocks.JPG')
-const price = computed(() => (product.price != null ? `₵${product.price}` : null))
+const formattedPrice = computed(() => {
+    if (typeof product.price === 'string') {
+        return `₵${product.price}` // For price ranges like "9.50 - 13.00"
+    }
+    return product.price != null ? `₵${product.price}` : null // For single prices
+})
 const unit = computed(() => product.unit ?? '')
 const features = computed(() => product.features ?? [])
 const category = computed(() => product.category ?? '')

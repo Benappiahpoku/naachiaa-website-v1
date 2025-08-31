@@ -1,0 +1,51 @@
+# Robots.txt for Naachiaa Estates
+# Ghana's Premier Concrete Products Manufacturer
+
+User-agent: *
+Allow: /
+
+# Priority crawling for main pages
+Allow: /
+Allow: /products
+Allow: /projects  
+Allow: /about
+Allow: /contact
+
+# Block crawling of admin/development files
+Disallow: /admin/
+Disallow: /_nuxt/
+Disallow: /api/
+Disallow: /.git/
+
+# Block crawling of temporary/cache files
+Disallow: /temp/
+Disallow: /cache/
+Disallow: /.well-known/
+
+# Allow access to important assets
+Allow: /images/
+Allow: /icons/
+Allow: *.css
+Allow: *.js
+Allow: *.png
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.webp
+Allow: *.svg
+Allow: *.pdf
+
+# Sitemap location
+Sitemap: https://naachiaa.vercel.app/sitemap.xml
+
+# Crawl delay (optional - can help with server load)
+Crawl-delay: 1
+
+# Special directives for major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /

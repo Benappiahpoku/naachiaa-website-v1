@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  
+  <!-- Homepage - Highest priority -->
+  <url>
+    <loc>https://naachiaa.vercel.app/</loc>
+    <lastmod>2025-08-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://naachiaa.vercel.app/NaachiaaLogo.webp</image:loc>
+      <image:title>Naachiaa Estates Logo</image:title>
+      <image:caption>Ghana's premier concrete products manufacturer since 1991</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://naachiaa.vercel.app/heroImage.jpg</image:loc>
+      <image:title>Naachiaa Estates Hero Image</image:title>
+      <image:caption>Quality concrete products and construction materials</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Products Page - High priority for business -->
+  <url>
+    <loc>https://naachiaa.vercel.app/products</loc>
+    <lastmod>2025-08-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://naachiaa.vercel.app/solidblocks.JPG</image:loc>
+      <image:title>Solid Concrete Blocks</image:title>
+      <image:caption>Premium quality concrete blocks for construction</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://naachiaa.vercel.app/roofingtiles.JPG</image:loc>
+      <image:title>Roofing Tiles</image:title>
+      <image:caption>Durable concrete roofing tiles for Ghana's climate</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://naachiaa.vercel.app/pavingblocks.JPG</image:loc>
+      <image:title>Paving Blocks</image:title>
+      <image:caption>High-quality paving blocks and stones</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Projects Page - High priority for credibility -->
+  <url>
+    <loc>https://naachiaa.vercel.app/projects</loc>
+    <lastmod>2025-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- About Page - Important for trust building -->
+  <url>
+    <loc>https://naachiaa.vercel.app/about</loc>
+    <lastmod>2025-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Contact Page - Important for business -->
+  <url>
+    <loc>https://naachiaa.vercel.app/contact</loc>
+    <lastmod>2025-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Individual Product Category Pages (if implemented) -->
+  <url>
+    <loc>https://naachiaa.vercel.app/products/blocks</loc>
+    <lastmod>2025-08-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://naachiaa.vercel.app/products/tiles</loc>
+    <lastmod>2025-08-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://naachiaa.vercel.app/products/kerbs</loc>
+    <lastmod>2025-08-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://naachiaa.vercel.app/products/pavers</loc>
+    <lastmod>2025-08-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://naachiaa.vercel.app/products/culverts</loc>
+    <lastmod>2025-08-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>

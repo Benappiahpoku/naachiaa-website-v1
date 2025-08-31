@@ -37,7 +37,7 @@
                 inline-flex items-center px-6 py-4 text-gray-200 relative group 
                 transition-all duration-200 font-medium text-sm uppercase tracking-wide
                 hover:text-white
-              " :class="{ 
+              " :class="{
                 'text-white': $route.path === item.path,
                 'text-gray-200': $route.path !== item.path
               }">
@@ -55,7 +55,7 @@
                   absolute inset-x-2 inset-y-2 rounded-lg bg-blue-600 opacity-0 
                   group-hover:opacity-100 transition-all duration-200 
                   transform scale-95 group-hover:scale-100
-                " :class="{ 
+                " :class="{
                   'opacity-100 scale-100 bg-blue-700': $route.path === item.path,
                   'opacity-0 scale-95': $route.path !== item.path
                 }"></div>
@@ -105,7 +105,7 @@
               text-gray-200 flex items-center gap-3 px-4 py-4 rounded-lg text-base font-medium 
               hover:bg-gray-700 hover:text-white active:bg-blue-600 active:text-white
               transition-all duration-200 touch-manipulation min-h-[48px]
-            " :class="{ 
+            " :class="{
               'bg-blue-600 text-white shadow-md': $route.path === item.path,
               'bg-transparent': $route.path !== item.path
             }" @click="isMobileMenuOpen = false">
@@ -126,7 +126,7 @@
             </div>
             <div class="space-y-2">
               <!-- WhatsApp Quick Contact -->
-              <a href="https://wa.me/233244123456" target="_blank" rel="noopener noreferrer" class="
+              <a href="https://wa.me/0500000839" target="_blank" rel="noopener noreferrer" class="
                   flex items-center gap-3 px-4 py-3 rounded-lg text-sm font-medium
                   text-green-400 hover:bg-green-600 hover:text-white
                   transition-all duration-200 min-h-[44px]
@@ -139,7 +139,7 @@
               </a>
 
               <!-- Phone Quick Contact -->
-              <a href="tel:+233244123456" class="
+              <a href="tel:0500000839" class="
                   flex items-center gap-3 px-4 py-3 rounded-lg text-sm font-medium
                   text-blue-400 hover:bg-blue-600 hover:text-white
                   transition-all duration-200 min-h-[44px]
@@ -176,23 +176,23 @@ const isMobileMenuOpen = ref(false)
  * Construction industry-focused navigation with icons and proper routing
  */
 const navItems = [
-  { 
-    name: 'Home', 
+  {
+    name: 'Home',
     path: '/',
     icon: 'M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z'
   },
-  { 
-    name: 'Products', 
+  {
+    name: 'Products',
     path: '/products',
     icon: 'M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z'
   },
-  { 
-    name: 'About Us', 
+  {
+    name: 'About Us',
     path: '/about',
     icon: 'M13 6a3 3 0 11-6 0 3 3 0 016 0zM9 12a6 6 0 016 6H3a6 6 0 016-6z'
   },
-  { 
-    name: 'Contact', 
+  {
+    name: 'Contact',
     path: '/contact',
     icon: 'M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884zM18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z'
   }

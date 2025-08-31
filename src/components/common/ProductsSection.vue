@@ -43,24 +43,36 @@ interface Product {
 }
 
 // ===== Business contact =====
-const businessPhone = '+233244123456'
-const businessWhatsApp = '+233244123456'
+const businessPhone = '0500000839'
+const businessWhatsApp = '0500000839'
 const businessName = 'Naachiaa Estates'
 
 // ===== Products (static, served from public/) =====
 const products: Readonly<Product[]> = readonly([
-  { id: 'solidblocks', title: 'Concrete Blocks', description: 'Durable, high-strength concrete blocks suitable for walls and foundations.', image: '/solidblocks.JPG' },
-  { id: 'paving', title: 'Paving Tiles', description: 'Interlocking paving tiles for driveways, walkways, and public spaces.', image: '/pavingblocks.JPG' },
-  { id: 'kerbs', title: 'Road Kerbs', description: 'Precast concrete kerbs for roads and drainage edges.', image: '/kerbs.JPG' },
-  { id: 'culverts', title: 'Culverts', description: 'Robust culvert solutions for effective water management.', image: '/culverts.jpg' }
+  { id: 'solidblocks', title: 'Concrete Blocks', description: 'Durable, high-strength concrete blocks.', image: '/solidblocks.JPG', inStock: true },
+  { id: 'paving', title: 'Paving Blocks', description: 'Interlocking paving blocks.', image: '/pavingblocks.JPG', inStock: true },
+  { id: 'kerbs', title: 'Road Kerbs', description: 'Precast concrete kerbs.', image: '/kerbs.JPG', inStock: true },
+  { id: 'culverts', title: 'Culverts', description: 'Robust culvert solutions.', image: '/culverts.jpg', inStock: true }
 ])
 
 // ===== Actions =====
+// function viewProduct(product: Product): void {
+//   if (product?.image) {
+//     window.open(product.image, '_blank', 'noopener,noreferrer')
+//   }
+// }
 function viewProduct(product: Product): void {
-  if (product?.image) {
-    window.open(product.image, '_blank', 'noopener,noreferrer')
+  const message = `Hello ${businessName}, I would like information and a quote for: ${product.title}`
+  const encoded = encodeURIComponent(message)
+  const clean = businessWhatsApp.replace(/\D/g, '')
+  const url = `https://wa.me/${clean}?text=${encoded}`
+  try {
+    window.open(url, '_blank', 'noopener,noreferrer')
+  } catch (err) {
+    alert(`Unable to open WhatsApp. Please call ${businessPhone}`)
   }
 }
+
 
 function openWhatsApp(product: Product): void {
   const message = `Hello ${businessName}, I would like information and a quote for: ${product.title}`
