@@ -12,9 +12,16 @@
   <section class="relative bg-gradient-to-br from-white via-gray-100 to-gray-50">
     <div class="max-w-7xl mx-auto px-4 py-12">
       <!-- ===== Responsive Layout: mobile-first ===== -->
+      <!-- ===== [New Feature] START ===== -->
       <div class="flex flex-col md:flex-row items-center gap-8">
+        <!-- On mobile: image first, content second. On desktop: content left, image right. -->
+        <!-- ===== HERO IMAGE COLUMN ===== -->
+        <div class="w-full md:w-1/2 order-1 md:order-2 flex justify-center items-center">
+          <img src="/heroImage.jpg" alt="Naachiaa Estates - concrete and construction" loading="lazy" decoding="async"
+            class="w-full h-64 md:h-[520px] object-cover rounded-lg shadow-lg" />
+        </div>
         <!-- ===== HERO CONTENT COLUMN ===== -->
-        <section class="relative w-full md:w-1/2 order-1 md:order-1 rounded-lg flex flex-col justify-center"
+        <section class="relative w-full md:w-1/2 order-2 md:order-1 rounded-lg flex flex-col justify-center"
           aria-labelledby="hero-heading">
           <!-- Content -->
           <div class="relative z-10 text-gray-800">
@@ -43,12 +50,6 @@
 
           </div>
         </section>
-
-        <!-- ===== HERO IMAGE COLUMN ===== -->
-        <div class="w-full md:w-1/2 order-2 md:order-2 flex justify-center items-center">
-          <img src="/heroImage.jpg" alt="Naachiaa Estates - concrete and construction" loading="lazy" decoding="async"
-            class="w-full h-64 md:h-[520px] object-cover rounded-lg shadow-lg" />
-        </div>
       </div>
     </div>
   </section>
