@@ -164,7 +164,7 @@
                 <h3 class="text-xl font-bold text-gray-900 mb-2">Email Us</h3>
                 <div class="text-gray-600">
                   <a href="mailto:info@naachiaa.com" class="text-green-600 hover:text-green-700 font-medium">
-                    info@naachiaa.com
+                    naachiaaLtd@gmail.com
                   </a>
                   <p class="text-sm mt-1">For detailed inquiries and quotes</p>
                 </div>
@@ -271,9 +271,9 @@ import { onMounted } from 'vue'
  * Business contact information for Naachiaa Estates
  */
 const businessInfo = {
-  whatsappNumber: '0244314463',
-  email: 'info@naachiaa.com',
-  address: 'Industrial Area, Tema, Greater Accra Region, Ghana',
+  whatsappNumber: '0500000839',
+  email: 'naachiaaltd@gmail.com',
+  address: 'No. 8 Darfur Road, Esreso, Kumasi, Ashanti Region, Ghana',
   companyName: 'Naachiaa Estates'
 }
 

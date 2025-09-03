@@ -93,7 +93,7 @@
  */
 const businessInfo = {
   phone: '0244314463',
-  whatsappNumber: '0244314463',
+  whatsappNumber: '05000000839',
   address: 'Industrial Area, Tema, Greater Accra Region, Ghana',
   companyName: 'Naachiaa Estates'
 }
