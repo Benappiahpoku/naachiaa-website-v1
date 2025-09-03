@@ -49,10 +49,10 @@ const businessName = 'Naachiaa Estates'
 
 // ===== Products (static, served from public/) =====
 const products: Readonly<Product[]> = readonly([
-  { id: 'solidblocks', title: 'Concrete Blocks', description: 'Durable, high-strength concrete blocks.', image: '/solidblocks.JPG', inStock: true },
-  { id: 'paving', title: 'Paving Blocks', description: 'Interlocking paving blocks.', image: '/pavingblocks.JPG', inStock: true },
-  { id: 'kerbs', title: 'Road Kerbs', description: 'Precast concrete kerbs.', image: '/kerbs.JPG', inStock: true },
-  { id: 'culverts', title: 'Culverts', description: 'Robust culvert solutions.', image: '/culverts.jpg', inStock: true }
+  { id: 'solidblocks', title: 'Concrete Blocks', description: 'Durable, high-strength concrete blocks.', image: '/solidblocks.webp', inStock: true },
+  { id: 'paving', title: 'Paving Blocks', description: 'Interlocking paving blocks.', image: '/pavingblocks.webp', inStock: true },
+  { id: 'kerbs', title: 'Road Kerbs', description: 'Precast concrete kerbs.', image: '/kerbs.webp', inStock: true },
+  { id: 'culverts', title: 'Culverts', description: 'Robust culvert solutions.', image: '/culverts.webp', inStock: true }
 ])
 
 // ===== Actions =====

@@ -185,7 +185,7 @@ const products: Product[] = [
     unit: 'per block',
     inStock: true,
     features: ['High strength', 'Easy to handle', 'Cost effective'],
-    image: '/solidblocks.JPG' // Change this to any image in /public
+    image: '/solidblocks.webp' // Change this to any image in /public
   },
   {
     id: '2',
@@ -196,7 +196,7 @@ const products: Product[] = [
     unit: 'per slab',
     inStock: true,
     features: ['Maximum strength', 'Load bearing', 'Weather resistant'],
-    image: '/concreteBlocks.jpg'
+    image: '/concreteBlocks.webp'
   },
   {
     id: '3',
@@ -207,7 +207,7 @@ const products: Product[] = [
     unit: 'per tile',
     inStock: true,
     features: ['Weather resistant', 'Thermal insulation', 'Long lasting'],
-    image: '/roofingtiles.JPG'
+    image: '/roofingtiles.webp'
   },
   {
     id: '4',
@@ -218,7 +218,7 @@ const products: Product[] = [
     unit: 'per m²',
     inStock: true,
     features: ['Non-slip surface', 'Easy to clean', 'Indoor/outdoor use'],
-    image: '/pavingblocks.JPG'
+    image: '/pavingblocks.webp'
   },
   {
     id: '5',
@@ -229,7 +229,7 @@ const products: Product[] = [
     unit: 'per meter',
     inStock: true,
     features: ['Highway grade', 'Weather resistant', 'Standard dimensions'],
-    image: '/kerbs.JPG'
+    image: '/kerbs.webp'
   },
   {
     id: '6',
@@ -240,7 +240,7 @@ const products: Product[] = [
     unit: 'per m²',
     inStock: true,
     features: ['Interlocking design', 'Decorative patterns', 'Durable finish'],
-    image: '/redpavers.jpg'
+    image: '/redpavers.webp'
   },
   {
     id: '7',
@@ -251,7 +251,7 @@ const products: Product[] = [
     unit: 'per unit',
     inStock: true,
     features: ['Heavy load capacity', 'Reinforced concrete', 'Long service life'],
-    image: '/culverts.jpg'
+    image: '/culverts.webp'
   }
 ]
 

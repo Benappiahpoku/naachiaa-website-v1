@@ -17,7 +17,7 @@
         <!-- On mobile: image first, content second. On desktop: content left, image right. -->
         <!-- ===== HERO IMAGE COLUMN ===== -->
         <div class="w-full md:w-1/2 order-1 md:order-2 flex justify-center items-center">
-          <img src="/heroImage.jpg" alt="Naachiaa Estates - concrete and construction" loading="lazy" decoding="async"
+          <img src="/heroImage.webp" alt="Naachiaa Estates - concrete and construction" loading="lazy" decoding="async"
             class="w-full h-64 md:h-[520px] object-cover rounded-lg shadow-lg" />
         </div>
         <!-- ===== HERO CONTENT COLUMN ===== -->
