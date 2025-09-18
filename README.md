@@ -32,13 +32,13 @@ git clone [repository-url]
 cd stratonea-boilerplate-v3
 ```
 
-2. Install dependencies:
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-3. Start development server:
+1. Start development server:
 
 ```bash
 npm run dev
@@ -46,7 +46,7 @@ npm run dev
 
 ## 📁 Project Structure
 
-```
+```text
 src/
 ├── components/           # Reusable UI components
 │   ├── DataUsageWarning.vue
